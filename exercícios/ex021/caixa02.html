@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <link rel="shortcut icon" href="rocket-ico.ico" type="image/x-icon">
+    <style>
+        @font-face {font-family: desenho; src: url(Cheese\ Milky.otf) format( 'opentype'); } 
+        
+        body{
+            background-color: blanchedalmond;
+
+        }
+        h1,h2{
+            font-family: 'desenho';
+        }
+        header{
+            background-color: chocolate;
+             padding: 10px;
+           
+            margin-bottom: 10px;
+        }
+            
+        
+        footer{
+            background-color:darkgoldenrod; 
+            text-align: center;
+        }
+        main{
+            background-color: rgba(255, 152, 115, 0.847);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px 40px;
+            box-shadow: 3px 2px 8px rgba(3, 2, 13, 0.157);
+           
+           
+            
+        }
+        article > aside{
+            background-color:darkorange;
+            text-align: center;
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(0, 247, 255);    
+            margin-right: 35px;
+            margin-bottom: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+        nav{
+            background-color: darkgrey;
+            padding: 3px;
+            box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.371);
+
+        }
+        div#bola{
+          height: 100px;
+          width: 100px;
+          margin: 20px 20px 20px 20px ;
+          background-color: aquamarine;
+          border-radius: 50%;  
+        }
+    </style>
+</head>
+<body>
+    
+   
+    <header><h1>site</h1></header>
+     <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        
+    </nav>
+    <main>
+        <section id="Assuntos">
+            <p>esportes</p>
+            
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>notícia sobre o <word>brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat itaque rerum eligendi sequi necessitatibus nobis, doloremque, ullam eos magni, explicabo eius accusantium neque facilis molestiae voluptatum nostrum iste? Natus?</p>
+                <article>
+                   <aside>
+                    <p>artigo escrito por joana silva</p>
+                   </aside> 
+                </article>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por Miguel</p>
+    </footer>
+    <div id="bola">
+        
+   
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* em html id e em css # */
+/* html é class e em css é .*/
+
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient( to top,rgba(169, 141, 77, 0.606),rgba(117, 125, 65, 0.506), rgba(86, 79, 10, 0.643) );
+    background-attachment: fixed;
+    
+}
+h1{
+    color: rgb(214, 130, 21);
+}
+h2{
+    color: rgb(113, 63, 34);
+}
+#principal{
+    text-align: center;
+    background-color: coral;
+    color: white;
+    font-size: 50px;
+}
+.basico{
+    color: rgb(63, 103, 23);
+    
+     
+}
+.intermediario{
+    color: rgb(255, 230, 0);
+    
+}
+.avancado{
+    color: rgb(190, 34, 34);
+    
+}
+.destaque{
+    background-color: rgba(115, 69, 158, 0.3);
+}

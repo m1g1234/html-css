@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+     background-color: blanchedalmond;
+     font-family: Arial, Helveticsans-serif;
+     font-size: 20px;
+    }
+h1{
+    background-color:chocolate;
+    color: rgb(236, 172, 11);
+    }
+h2{background-color: rgb(34, 90, 34);
+                color: rgb(119, 209, 28);
+  }
+p{
+    text-align: justify;
+  }
